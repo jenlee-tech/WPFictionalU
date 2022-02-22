@@ -1,0 +1,1 @@
+<h2>Here is some footer information from footer.php</h2>
