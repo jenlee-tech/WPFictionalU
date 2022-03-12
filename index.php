@@ -1,5 +1,14 @@
 <?php get_header(); ?>
 
+<?php 
+the_title();
+get_the_title(); //it will return the title
+
+the_id();
+get_the_id(); //it will return the id
+
+?>
+
 <div class="page-banner">
     <div class="page-banner__bg-image"
         style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg') ?>);">
